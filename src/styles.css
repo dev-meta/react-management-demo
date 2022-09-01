@@ -1,0 +1,66 @@
+.App {
+    font-family: sans-serif;
+    text-align: left;
+  }
+  
+  .content {
+    display: flex;
+    width: 100%;
+  }
+  
+  .countries-list {
+    display: flex;
+  }
+  
+  .country-item {
+    display: flex;
+    margin: 3px 0;
+    align-items: center;
+    padding: 3px 10px;
+    border: 0;
+    width: 100%;
+    text-align: left;
+    font-size: 14px;
+    line-height: 18px;
+  }
+  
+  .country-item.saved {
+    background: #ccc6ec;
+  }
+  
+  .country-item.dark {
+    background: #151515;
+    color: #fff;
+  }
+  
+  .country-item:focus,
+  .country-item:active {
+    background: #c1f0f9;
+  }
+  
+  .country-same-region {
+    font-size: 10px;
+    line-height: 12px;
+  }
+  
+  .selected-container {
+    display: flex;
+    width: 50%;
+    align-items: flex-start;
+  }
+  
+  .selected-info {
+    flex-grow: 1;
+  }
+  
+  .selected-button {
+    padding: 10px 20px;
+    background: #00875a;
+    color: #fff;
+    border: 0;
+  }
+  
+  .selected-flag {
+    width: 150px;
+  }
+  

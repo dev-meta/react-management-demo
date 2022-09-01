@@ -1,12 +1,15 @@
+import Theme from './theme'
+import './styles.css'
 
-import Theme from "./theme"
+import {Outlet} from 'react-router-dom'
+import Header from './header'
 
-function App() {
-  return (
-    <div className="App">
-        <Theme />
-    </div>
-  )
+export default function App() {
+	return (
+		<div className='App'>
+			<Theme />
+			<Header />
+			<Outlet />
+		</div>
+	)
 }
-
-export default App
